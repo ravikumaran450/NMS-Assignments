@@ -1,0 +1,1 @@
+Formatting '/opt/gns3/projects/44a04557-c057-4fed-a8d1-3a860c9eddc0/project-files/qemu/0838130c-ea4b-4099-be74-02c988349700/hda_disk.qcow2', fmt=qcow2 cluster_size=65536 extended_l2=off compression_type=zlib size=8589934592 backing_file=/opt/gns3/images/QEMU/csr1000v-universalk9.16.12.08.qcow2 backing_fmt=qcow2 lazy_refcounts=off refcount_bits=16

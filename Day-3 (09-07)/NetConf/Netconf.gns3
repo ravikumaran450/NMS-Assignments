@@ -1,0 +1,407 @@
+{
+    "auto_close": true,
+    "auto_open": false,
+    "auto_start": false,
+    "drawing_grid_size": 25,
+    "grid_size": 75,
+    "name": "Netconf",
+    "project_id": "44a04557-c057-4fed-a8d1-3a860c9eddc0",
+    "revision": 9,
+    "scene_height": 1000,
+    "scene_width": 2000,
+    "show_grid": true,
+    "show_interface_labels": true,
+    "show_layers": false,
+    "snap_to_grid": false,
+    "supplier": null,
+    "topology": {
+        "computes": [],
+        "drawings": [],
+        "links": [
+            {
+                "filters": {},
+                "link_id": "eb3b4cd3-3379-4f2f-8db4-4f10b54601d7",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: MS Shell Dlg 2;font-size: 8.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "Gi1",
+                            "x": 51,
+                            "y": -13
+                        },
+                        "node_id": "f8192cbf-af8d-45cb-860a-16c86843f276",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: MS Shell Dlg 2;font-size: 8.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "tap0",
+                            "x": 61,
+                            "y": 70
+                        },
+                        "node_id": "2344aa56-248b-4653-91f8-1513dc70c488",
+                        "port_number": 5
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "37b75fea-802f-4d29-a706-ca1b4878fc88",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: MS Shell Dlg 2;font-size: 8.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "tap1",
+                            "x": 110,
+                            "y": 74
+                        },
+                        "node_id": "2344aa56-248b-4653-91f8-1513dc70c488",
+                        "port_number": 6
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: MS Shell Dlg 2;font-size: 8.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "Gi1",
+                            "x": 8,
+                            "y": -9
+                        },
+                        "node_id": "0838130c-ea4b-4099-be74-02c988349700",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            }
+        ],
+        "nodes": [
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": null,
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 71,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: MS Shell Dlg 2;font-size: 8.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "Cloud1",
+                    "x": 56,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "Cloud1",
+                "node_id": "2344aa56-248b-4653-91f8-1513dc70c488",
+                "node_type": "cloud",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "interfaces": [
+                        {
+                            "name": "br-0f696808df55",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "br-61afc933e723",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "br-ac2b52f68419",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "br0",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "docker0",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "eth0",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "lo",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "tap0",
+                            "special": false,
+                            "type": "tap"
+                        },
+                        {
+                            "name": "tap1",
+                            "special": false,
+                            "type": "tap"
+                        },
+                        {
+                            "name": "tap2",
+                            "special": false,
+                            "type": "tap"
+                        },
+                        {
+                            "name": "tap3",
+                            "special": false,
+                            "type": "tap"
+                        },
+                        {
+                            "name": "tap4",
+                            "special": false,
+                            "type": "tap"
+                        },
+                        {
+                            "name": "tap5",
+                            "special": false,
+                            "type": "tap"
+                        },
+                        {
+                            "name": "virbr0",
+                            "special": true,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "ports_mapping": [
+                        {
+                            "interface": "br-0f696808df55",
+                            "name": "br-0f696808df55",
+                            "port_number": 0,
+                            "type": "ethernet"
+                        },
+                        {
+                            "interface": "br-61afc933e723",
+                            "name": "br-61afc933e723",
+                            "port_number": 1,
+                            "type": "ethernet"
+                        },
+                        {
+                            "interface": "br-ac2b52f68419",
+                            "name": "br-ac2b52f68419",
+                            "port_number": 2,
+                            "type": "ethernet"
+                        },
+                        {
+                            "interface": "br0",
+                            "name": "br0",
+                            "port_number": 3,
+                            "type": "ethernet"
+                        },
+                        {
+                            "interface": "eth0",
+                            "name": "eth0",
+                            "port_number": 4,
+                            "type": "ethernet"
+                        },
+                        {
+                            "interface": "tap0",
+                            "name": "tap0",
+                            "port_number": 5,
+                            "type": "tap"
+                        },
+                        {
+                            "interface": "tap1",
+                            "name": "tap1",
+                            "port_number": 6,
+                            "type": "tap"
+                        },
+                        {
+                            "interface": "tap2",
+                            "name": "tap2",
+                            "port_number": 7,
+                            "type": "tap"
+                        },
+                        {
+                            "interface": "tap3",
+                            "name": "tap3",
+                            "port_number": 8,
+                            "type": "tap"
+                        },
+                        {
+                            "interface": "tap4",
+                            "name": "tap4",
+                            "port_number": 9,
+                            "type": "tap"
+                        },
+                        {
+                            "interface": "tap5",
+                            "name": "tap5",
+                            "port_number": 10,
+                            "type": "tap"
+                        }
+                    ],
+                    "remote_console_host": "",
+                    "remote_console_http_path": "/",
+                    "remote_console_port": 23,
+                    "remote_console_type": "none"
+                },
+                "symbol": ":/symbols/cloud.svg",
+                "template_id": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
+                "width": 159,
+                "x": -117,
+                "y": -193,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5900,
+                "console_auto_start": false,
+                "console_type": "vnc",
+                "custom_adapters": [],
+                "first_port_name": "",
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: MS Shell Dlg 2;font-size: 8.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "CiscoCSR1000v16.12.8-1",
+                    "x": -40,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "CiscoCSR1000v16.12.8-1",
+                "node_id": "f8192cbf-af8d-45cb-860a-16c86843f276",
+                "node_type": "qemu",
+                "port_name_format": "Gi{port1}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "vmxnet3",
+                    "adapters": 4,
+                    "bios_image": "",
+                    "bios_image_md5sum": null,
+                    "boot_priority": "c",
+                    "cdrom_image": "",
+                    "cdrom_image_md5sum": null,
+                    "cpu_throttling": 0,
+                    "cpus": 1,
+                    "create_config_disk": false,
+                    "hda_disk_image": "csr1000v-universalk9.16.12.08.qcow2",
+                    "hda_disk_image_md5sum": "ffbf33a52c462b59a699f365f789f891",
+                    "hda_disk_interface": "ide",
+                    "hdb_disk_image": "",
+                    "hdb_disk_image_md5sum": null,
+                    "hdb_disk_interface": "none",
+                    "hdc_disk_image": "",
+                    "hdc_disk_image_md5sum": null,
+                    "hdc_disk_interface": "none",
+                    "hdd_disk_image": "",
+                    "hdd_disk_image_md5sum": null,
+                    "hdd_disk_interface": "none",
+                    "initrd": "",
+                    "initrd_md5sum": null,
+                    "kernel_command_line": "",
+                    "kernel_image": "",
+                    "kernel_image_md5sum": null,
+                    "legacy_networking": false,
+                    "linked_clone": true,
+                    "mac_address": "0c:19:2c:bf:00:00",
+                    "on_close": "power_off",
+                    "options": "",
+                    "platform": "x86_64",
+                    "process_priority": "normal",
+                    "qemu_path": "/usr/bin/qemu-system-x86_64",
+                    "ram": 3072,
+                    "replicate_network_connection_state": true,
+                    "tpm": false,
+                    "uefi": false,
+                    "usage": "There is no default password and enable password. A default configuration is present."
+                },
+                "symbol": ":/symbols/router.svg",
+                "template_id": "9b961d00-1a18-4c85-8de6-214d8dc31a28",
+                "width": 66,
+                "x": -167,
+                "y": 6,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5901,
+                "console_auto_start": false,
+                "console_type": "vnc",
+                "custom_adapters": [],
+                "first_port_name": "",
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: MS Shell Dlg 2;font-size: 8.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "CiscoCSR1000v16.12.8-2",
+                    "x": -40,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "CiscoCSR1000v16.12.8-2",
+                "node_id": "0838130c-ea4b-4099-be74-02c988349700",
+                "node_type": "qemu",
+                "port_name_format": "Gi{port1}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "vmxnet3",
+                    "adapters": 4,
+                    "bios_image": "",
+                    "bios_image_md5sum": null,
+                    "boot_priority": "c",
+                    "cdrom_image": "",
+                    "cdrom_image_md5sum": null,
+                    "cpu_throttling": 0,
+                    "cpus": 1,
+                    "create_config_disk": false,
+                    "hda_disk_image": "csr1000v-universalk9.16.12.08.qcow2",
+                    "hda_disk_image_md5sum": "ffbf33a52c462b59a699f365f789f891",
+                    "hda_disk_interface": "ide",
+                    "hdb_disk_image": "",
+                    "hdb_disk_image_md5sum": null,
+                    "hdb_disk_interface": "none",
+                    "hdc_disk_image": "",
+                    "hdc_disk_image_md5sum": null,
+                    "hdc_disk_interface": "none",
+                    "hdd_disk_image": "",
+                    "hdd_disk_image_md5sum": null,
+                    "hdd_disk_interface": "none",
+                    "initrd": "",
+                    "initrd_md5sum": null,
+                    "kernel_command_line": "",
+                    "kernel_image": "",
+                    "kernel_image_md5sum": null,
+                    "legacy_networking": false,
+                    "linked_clone": true,
+                    "mac_address": "0c:38:13:0c:00:00",
+                    "on_close": "power_off",
+                    "options": "",
+                    "platform": "x86_64",
+                    "process_priority": "normal",
+                    "qemu_path": "/usr/bin/qemu-system-x86_64",
+                    "ram": 3072,
+                    "replicate_network_connection_state": true,
+                    "tpm": false,
+                    "uefi": false,
+                    "usage": "There is no default password and enable password. A default configuration is present."
+                },
+                "symbol": ":/symbols/router.svg",
+                "template_id": "9b961d00-1a18-4c85-8de6-214d8dc31a28",
+                "width": 66,
+                "x": 76,
+                "y": 8,
+                "z": 1
+            }
+        ]
+    },
+    "type": "topology",
+    "variables": null,
+    "version": "2.2.43",
+    "zoom": 100
+}
